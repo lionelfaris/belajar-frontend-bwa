@@ -1,0 +1,85 @@
+:root {
+  --black: #070f18;
+  --white: #f5f6fb;
+  --blue: #207dff;
+  --orange: #f06157;
+  --gray: #575455;
+}
+
+body {
+  font-family: "Poppins", serif;
+  padding: 40px 24px;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--black);
+}
+
+.text-orange {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--orange);
+  text-transform: uppercase;
+}
+
+.text-gray {
+  color: var(--gray);
+  margin-top: 25px;
+}
+
+button{
+    color: var(--white);
+    background-color: var(--blue);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    padding: 12px 0px;
+    border-radius: 50px;
+    width: 180px;
+    height: 48px;
+    border: none;
+    margin-top: 20px;
+}
+
+.container-judul-global-companies{
+    margin-top: 50px;
+}
+
+.container-logo-global-companies{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+  h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .container-logo-global-companies img{
+    width: 100px;
+  }
+}
