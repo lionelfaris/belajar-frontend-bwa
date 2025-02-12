@@ -31,6 +31,13 @@ h3 {
     color: var(--black);
 }
 
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--black);
+}
+
 .text-orange {
   font-size: 16px;
   font-weight: 700;
@@ -42,6 +49,7 @@ h3 {
 .text-gray {
   color: var(--gray);
   margin-top: 25px;
+  line-height: 32px;
 }
 
 button{
@@ -69,6 +77,98 @@ button{
     gap: 20px;
 }
 
+.work-better-for-your-business-wrapper{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.work-better-for-your-business-wrapper h2{
+    margin-top: -12px;
+}
+
+.work-better-for-your-business-wrapper p{
+    margin-top: 0px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card p{
+    margin-top: -20px;
+}
+
+.footer-wrapper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.footer-wrapper img{
+    width: 100%;
+}
+
+.deskripsi-footer-wrapper h4{
+    margin-bottom: -20px;
+}
+
+.email-getstarted-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.email-getstarted-wrapper input{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+    width: 300px;
+    height: 6px;
+    padding: 24px 12px;
+    border: none;
+    background-color: var(--white);
+}
+
+.email-getstarted-wrapper button{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    width: 327px;
+    height: 60px;
+    padding: 24px 12px;
+    align-items: center;
+}
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 600px) {
@@ -79,7 +179,20 @@ button{
     font-style: normal;
   }
 
+  h2{
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
   .container-logo-global-companies img{
     width: 100px;
   }
+
+  .footer-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
 }
