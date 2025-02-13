@@ -28,12 +28,40 @@ h1 {
   font-size: 55px;
 }
 
+h2 {
+  color: var(--black);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h5 {
+  color: #070F18;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
 p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
   color: var(--gray);
+}
+
+.text-orange {
+  color: #f75c4e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 /* MAIN */
@@ -125,22 +153,116 @@ p {
 }
 
 /* G50pxLOBAL COMPANIES */
-.global-companies-wrapper{
+.global-companies-wrapper {
   display: flex;
   justify-content: space-between;
   margin-top: -150px;
+  margin-bottom: 140px;
 }
 
-.container-judul-global-companies .trusted-by{
+.container-judul-global-companies .trusted-by {
   margin-bottom: -20px;
 }
 
-.container-judul-global-companies{
+.container-judul-global-companies {
   margin-top: -10px;
 }
 
-.container-logo-global-companies img{
+.container-logo-global-companies img {
   height: 30px;
   margin: 20px;
 }
 
+/* WORK BETTER */
+.work-better-for-your-business-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px;
+  margin-bottom: 70px;
+}
+
+.work-better-for-your-business-wrapper h2 {
+  text-align: center;
+  margin-top: -20px;
+}
+.work-better-for-your-business-wrapper p {
+  margin-top: -10px;
+  color: #575455;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.text-orange.work-better{
+  text-align: center;
+}
+
+
+/* CARDS */
+.kumpulan-card-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.penjelasan-card{
+  margin-top: -20px;
+  margin-left: 8px;
+}
+
+.penjelasan-card p{
+  margin-top: -12px;
+}
+
+.card-baris-1-wrapper{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 100px;
+}
+
+.card-baris-2-wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+}
+
+.card{
+  display: flex;  
+  gap: 20px;
+}
+
+.card img{
+  width: 60px;
+}
+
+/* FOOTER */
+.footer-wrapper{
+  display: flex;
+}
+
+.image-footer-wrapper img{
+  width: 600px;
+}
+
+.deskripsi-footer-get-started-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.deskripsi-footer{
+  justify-content: start;
+  text-align: left;
+}
+
+.text-orange .footer{
+  color: #f75c4e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
