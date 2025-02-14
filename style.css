@@ -15,6 +15,7 @@
 body {
   font-family: "Poppins", serif;
   background-color: var(--white);
+  height: 1950px;
 }
 
 main {
@@ -30,7 +31,7 @@ h1 {
 
 h2 {
   color: var(--black);
-  text-align: center;
+  /* text-align: center; */
   font-family: Poppins;
   font-size: 36px;
   font-style: normal;
@@ -241,18 +242,30 @@ p {
 /* FOOTER */
 .footer-wrapper{
   display: flex;
+  margin-top: 100px;
 }
 
 .image-footer-wrapper img{
-  width: 600px;
+  width: 500px;
 }
 
 .deskripsi-footer-get-started-wrapper{
   display: flex;
   flex-direction: column;
+  padding-left: 70px;
+}
+
+.deskripsi-footer-get-started-wrapper h2{
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.deskripsi-footer-get-started-wrapper p{
+  margin-bottom: 40px;
 }
 
 .deskripsi-footer{
+  margin-top: 50px;
   justify-content: start;
   text-align: left;
 }
@@ -265,4 +278,20 @@ p {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.email-getstarted-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.email-input{
+  width: 100%;
+  background: #efefef;
+  padding: 0px 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #6b7280; /* Subtle gray */
 }
